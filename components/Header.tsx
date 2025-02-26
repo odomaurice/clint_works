@@ -98,12 +98,12 @@ const Header = () => {
       >
         <div className="flex justify-between  mx-[10px]">
           <div className="flex gap-[50px] text-[16px] items-center select-none">
-            <Link href="/">
+           
             <Link href="/">
             <h1 className=" font-subtext font-extrabold text-black text-[28px]">tripbetter</h1>
           </Link>
              
-            </Link>
+          
           </div>
           <div className="flex items-center gap-[40px]">
             {menu ? (

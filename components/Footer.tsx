@@ -1,17 +1,18 @@
 "use client"
 import { footerLinks, socialMedia} from "@/constants/index";
 import Image from "next/image"
+import Link from "next/link";
 
 
 
 
 
 const Footer = () => (
-  <section className="flex justify-center font-header items-center px-6 sm:py-16 py-6 flex-col">
-    <div className="flex justify-center items-start md:flex-row flex-col mb-8 w-full">
+  <section className="flex justify-between font-header items-center  sm:py-16 py-6 flex-col">
+    <div className="flex justify-between items-start md:flex-row flex-col mb-8 w-full">
       
 
-      <div className="flex-[1.5] w-full flex flex-row md:justify-evenly justify-between flex-wrap md:mt-0 mb-8 mt-10">
+      <div className="flex-[1.5] w-full flex flex-row md:justify-around justify-between flex-wrap md:mt-0 mb-8 mt-10">
       {footerLinks.map((section, index) => (
           <div key={index}>
             <h3 className="text-lg mt-3 font-header font-semibold">{section.title}</h3>
@@ -19,9 +20,9 @@ const Footer = () => (
               {section.links
                 ? section.links.map((link, idx) => (
                     <li key={idx}>
-                      <a href={link.link} className="text-gray-300 font-alt hover:underline">
+                      <Link href={link.link} className="text-gray-300 font-alt hover:underline">
                         {link.name}
-                      </a>
+                      </Link>
                     </li>
                   ))
                 : section.icons && ( // If there are no links, render icons

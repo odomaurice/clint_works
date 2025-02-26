@@ -27,7 +27,7 @@ const Feature = () => {
             />
 
             {/* Text */}
-            <p className="text-sm mt-4">{item.text}</p>
+            <p className="text-[14px] leading-[21px] font-medium mt-8 mb-6">{item.text}</p>
           </div>
         ))}
       </div>

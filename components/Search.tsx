@@ -8,26 +8,26 @@ const Search = () => {
         <div className="relative   overflow-hidden flex md:w-1/5 w-full flex-col   mr-2 justify-center items-start md:border-r border-gray-400 leading-[20px]">
           <input
             placeholder="From"
-            className="bg-transparent text-[12px] placeholder-white md:placeholder-black   ml-2    focus:outline-none"
+            className="bg-transparent text-[12px] placeholder-white font-semibold md:placeholder-black   ml-6    focus:outline-none"
           />
         </div>
 
         <div className="relative hidden     overflow-hidden md:flex md:w-1/5  flex-col   mr-2 justify-center items-start border-r border-gray-400 leading-[20px]">
           <input
             placeholder="To"
-            className="bg-transparent text-[12px]  placeholder-black ml-2   focus:outline-none"
+            className="bg-transparent text-[12px] font-semibold  placeholder-black ml-6   focus:outline-none"
           />
         </div>
         <div className="relative hidden   overflow-hidden md:flex w-1/4  flex-col   mr-2 justify-center items-start border-r border-gray-400 leading-[20px]">
           <input
             placeholder="Since"
-            className="bg-transparent text-[12px] placeholder-black  ml-2    focus:outline-none"
+            className="bg-transparent text-[12px] placeholder-black font-semibold  ml-6    focus:outline-none"
           />
         </div>
         <div className="relative hidden   overflow-hidden md:flex w-1/3  flex-col   mr-2 justify-center items-start leading-[20px]">
           <input
             placeholder="Untill"
-            className="bg-transparent text-[12px] placeholder-black  ml-2    focus:outline-none"
+            className="bg-transparent text-[12px] placeholder-black font-semibold  ml-6    focus:outline-none"
           />
         </div>
         <div className=" md:flex bg-black  h-[46px] px-4 md:px-10 rounded-r-full items-center justify-center">
