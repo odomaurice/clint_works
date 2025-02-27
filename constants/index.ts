@@ -83,7 +83,7 @@ export const data = [
         },
         {
           name: "Privacy & Cookies",
-          link: "https://www.cyberpatron.com/newsletters/",
+          link: "#",
         },
       ],
     },

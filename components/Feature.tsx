@@ -8,11 +8,11 @@ const Feature = () => {
         <h3 className='md:text-[35px] text-[26px] mb-8 font-header font-extrabold leading-[52.5px] text-center'>This week in our blog</h3>
         <div className="w-full flex flex-col items-center">
       {/* Card Container */}
-      <div className="grid md:grid-cols-3 gap-16 w-[90%] md:w-[80%]">
+      <div className="grid md:grid-cols-3 md:gap-16 gap-8 w-[90%] md:w-[80%]">
         {data.map((item, index) => (
           <div key={index} className="flex relative flex-col mt-6 items-center text-center">
             {/* Number with Black Line */}
-            <div className="absolute top-[-20px] md:-left-[32] -left-[16] flex flex-col space-y-4 items-start">
+            <div className="absolute top-[-20px] md:-left-[32] -left-[16] md:flex hidden flex-col space-y-4 items-start">
               <span className="text-[22px] leading-[33px] font-bold">{item.id}</span>
               <div className="w-[68px] h-[8px] bg-black ml-2"></div>
             </div>
