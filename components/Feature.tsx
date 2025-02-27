@@ -13,7 +13,7 @@ const Feature = () => {
           <div key={index} className="flex relative flex-col mt-6 items-center text-center">
             {/* Number with Black Line */}
             <div className="absolute top-[-20px] md:-left-[32] -left-[16] flex flex-col space-y-4 items-start">
-              <span className="text-2xl font-bold">{item.id}</span>
+              <span className="text-[22px] leading-[33px] font-bold">{item.id}</span>
               <div className="w-[68px] h-[8px] bg-black ml-2"></div>
             </div>
 
@@ -27,7 +27,7 @@ const Feature = () => {
             />
 
             {/* Text */}
-            <p className="text-[14px] leading-[21px] font-medium mt-8 mb-6">{item.text}</p>
+            <p className="text-[14px] leading-[21px] w-[327px] font-medium mt-8 mb-6">{item.text}</p>
           </div>
         ))}
       </div>

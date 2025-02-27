@@ -1,5 +1,7 @@
-import { FaCcVisa, FaCcMastercard, FaPaypal, FaApplePay } from "react-icons/fa";
-import { SiVisa } from "react-icons/si";
+
+import { FaLinkedinIn } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa6";
+import { FaFacebookF } from "react-icons/fa6";
 
 export const data = [
     {
@@ -24,7 +26,7 @@ export const data = [
       id: "01",
       name: "Kuala Lumpur",
       img: "/popular-1.png", // Replace with actual image path
-      desc: "Kuala Lumpur is the capital city of Malaysia. Its tropical climate makes it summer all year round.",
+      desc: "Kuala Lumpur is the capital city of Malaysia. Its tropical climate makes it summer all year round. There is verdant plant life everywhere",
     },
     {
       id: "02",
@@ -36,7 +38,7 @@ export const data = [
       id: "03",
       name: "Bangkok",
       img: "/popular-3.png",
-      desc: "The capital of Thailand, Bangkok offers all sorts of excitement for adventurous visitors.",
+      desc: "The capital of Thailand, Bangkok offers all sorts of excitement for adventurous visitors. Gorgeous tropical scenery",
     },
   ];
 
@@ -57,10 +59,7 @@ export const data = [
           link: "#",
         },
         
-        {
-          name: "Terms & Services",
-          link: "https://www.cyberpatron.com/terms-and-services/",
-        },
+        
       ],
     },
     {
@@ -118,32 +117,32 @@ export const data = [
               },
       ],
     },
-    {
-        title: "Payment Methods",
-        icons: [
-        { component: SiVisa , color: "#F79E1B" }, // Visa 
-      "mastercard",
-      { component: FaApplePay, color: "#F79E1B" }, // ApplePay
+    // {
+    //     title: "Payment Methods",
+    //     icons: [
+    //     { component: SiVisa , color: "#F79E1B" }, // Visa 
+    //   "mastercard",
+    //   { component: FaApplePay, color: "#F79E1B" }, // ApplePay
      
      
-        ]
-      },
+    //     ]
+    //   },
   ];
 
   export const socialMedia = [
     {
       id: "social-media-1",
-      icon: "/linkedin.svg",
+      icon: FaLinkedinIn,
       link: "#",
     },
     {
       id: "social-media-2",
-      icon: "/facebook.svg",
+      icon: FaFacebookF,
       link: "#",
     },
     {
       id: "social-media-3",
-      icon: "/twitter.svg",
+      icon: FaTwitter,
       link: "#",
     },
     
